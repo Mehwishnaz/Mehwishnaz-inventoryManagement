@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Add New Employee</title>
+        <link rel="stylesheet" href="/CSS/reg.css">
+    </head>
+    <body>
+	<div class="sidebar">
+      <header> REGISTER HERE</header>
+	  <br>
+	  <form id="reg" method="POST" action="" >              
+                <label>Full Name </label><br>
+                <input type="text" name="name" 
+                placeholder="Full Name" id="name"><br>
+                <label>Designation</label><br>
+                <input type="Text" name="designation"
+                 placeholder="Designation" id="name"><br>
+                <label>Email</label><br>
+                <input type="email" name="email"
+                 placeholder="Email" id="name"><br>
+                <label>Department</label><br>
+                <input type="Text" name="department" 
+                placeholder="Department" id="name"><br>
+                <label>Date_Of_Join</label><br>
+                <input type="date" name="date" 
+                placeholder="Date Of Join" id="name"><br>
+                <label>Employee_Id</label><br>
+                <input type="number" name="no"
+                 placeholder="Employee Id" id="name">
+                <input name="submit" type="submit" value="Register" id="sub"> 
+            </form>
+			</div>
+</body>
+</html>
+<!-- <?php -->
+<!-- require_once("./prac.php"); -->
+<!-- if(!empty($_POST['submit'])){ -->
+	<!-- $_POST['name']=addslashes($_POST['name']); -->
+	<!-- $_POST['email']=addslashes($_POST['email']); -->
+	<!-- $_POST['date']=addslashes($_POST['date']); -->
+	<!-- $sql="INSERT INTO `employe` SET `Employee_ID`='{$_POST['no']}',`Name`='{$_POST['name']}', `Desgination`='{$_POST['designation']}',`Email_Address`='{$_POST['email']}',`Department`='{$_POST['department']}',`Date_of_join`='{$_POST['date']}',"; -->
+	<!-- $db->query($sql); -->
+	<!-- if($db->error){ -->
+		<!-- echo $db->error; -->
+	<!-- }else{ -->
+		<!-- echo"submitted";	 -->
+	<!-- } -->
+	<!-- } -->
+<!-- 	 -->
+	<!-- ?> -->
